@@ -51,7 +51,7 @@ router.post('/register', async (ctx) => {
     ctx.body = {
       code: '8001',
       data: 'error',
-      msg: '账号密码或昵称不能为空'
+      msg: '用户名或密码不能为空'
     }
     return
   }
