@@ -17,5 +17,5 @@ app.use(searchRouter.routes(), searchRouter.allowedMethods())
 app.use(aiRouter.routes(), aiRouter.allowedMethods())
 
 app.listen(3000, () => {
-  console.log('项目已启动');
+  console.log('项目已启动3000端口');
 })
