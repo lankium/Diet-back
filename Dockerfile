@@ -1,5 +1,5 @@
 FROM node
-LABEL name="Diet-back"
+LABEL name="diet-back"
 LABEL version="1.0"
 COPY . /app
 WORKDIR /app
