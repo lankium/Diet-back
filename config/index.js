@@ -4,7 +4,7 @@ const config = {
     USERNAME: 'root',
     PASSWORD: '123456',
     PORT: '3306',
-    HOST: '8.149.240.91'
+    HOST: 'mysql',
   },
 }
 module.exports = config
