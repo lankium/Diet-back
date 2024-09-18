@@ -54,11 +54,3 @@ const aiSearch = async (search_text, recipes) => {
 };
 
 module.exports = { aiSearch };
-
-// 示例调用
-// aiSearch('烤鸡', [
-//   { title: '炸鸡', description: '美味的炸鸡' },
-//   { title: '美味的炸鸡', description: '酥脆可口的炸鸡' }
-// ]).then(results => {
-//   console.log('Search Results:', results);
-// });
