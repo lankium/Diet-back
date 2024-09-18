@@ -76,7 +76,7 @@ router.post('/register', async (ctx) => {
       ctx.body = {
         code: '8004',
         data: 'error',
-        msg: '插入失败'
+        msg: '注册失败'
       }
     }
   } catch (error) {
