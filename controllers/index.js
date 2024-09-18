@@ -38,7 +38,7 @@ const userFind = (username) => {
 }
 // 查询所有食谱Recipes
 const FindAllRecipes = () => {
-  let _sql = 'SELECT * FROM Recipes'
+  let _sql = 'SELECT * FROM recipes'
   return allServices.query(_sql)
 }
 // 查询热门搜索记录
