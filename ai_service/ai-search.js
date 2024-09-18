@@ -49,7 +49,7 @@ const aiSearch = async (search_text, recipes) => {
     }));
     return simplifiedResults;
   } catch (error) {
-    console.error('Error in aiSearch:', error);
+    console.error('ai搜索失败:', error);
   }
 };
 
