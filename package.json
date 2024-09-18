@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "stop": "pm2 stop diet-back",
-    "start": "pm2 start ./index.js --name diet-back --watch"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
   },
   "keywords": [],
   "author": "",
