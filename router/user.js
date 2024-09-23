@@ -90,14 +90,3 @@ router.post('/register', async (ctx) => {
 })
 
 module.exports = router
-
-// // 插入一个用户示例
-// const username = 'wn';
-// const nickname = '美食达人';
-// const password = '123';
-// async function test() {
-//   const password_hash = await hashPassword(password)
-//   console.log(password_hash);
-//   console.log(userRegister(username, nickname, password_hash));
-// }
-// test()
