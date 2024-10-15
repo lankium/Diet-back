@@ -9,7 +9,7 @@ async function aiSpeak(content) {
   try {
     const response = await client.audio.speech.create({
       model: 'tts-1',
-      voice: "alloy",
+      voice: "nova",
       input: content
     }, {
       responseType: 'stream'  // 获取流数据
